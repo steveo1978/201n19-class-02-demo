@@ -1,0 +1,27 @@
+body {
+  background-color: aqua;
+}
+
+head {
+  margin: 0px;
+  width: auto;
+  background-color: cadetblue;
+  height: 350px;
+  color: aliceblue;
+  font-size: medium;
+  text-align: justify;
+}
+
+p {
+  margin: 0px auto;
+  background-color: aqua;
+  color: black;
+  width: 960px;
+}
+
+footer {
+  margin: 0px;
+  background-color: cadetblue;
+  text-align: right;
+  width: 960px;
+}
