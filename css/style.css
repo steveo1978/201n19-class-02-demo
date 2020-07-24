@@ -12,6 +12,12 @@ head {
   text-align: justify;
 }
 
+body>img {
+  width: 250px;
+  border-color: darkblue;
+  padding: 5px;
+}
+
 p {
   margin: 0px auto;
   background-color: aqua;
