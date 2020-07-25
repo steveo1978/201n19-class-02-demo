@@ -8,8 +8,7 @@ alert('Hello' + getName + ', Holla ! Welcome to the freakshow that is my mind ! 
 
 //Question 1
 var question1 = prompt('I was born in Oklahoma, but was I born in 1978 ? ');
-var question1 = 
-if (question1.toLowerCase !== 'no' && toLowerCase && question1.toLowerCase !== 'yes');
+ if (question1.toLowerCase !== 'no' && question1.toLowerCase !== 'yes');
   alert('Wrong answer dude');
   alert('Nice !!!!');
   //console.log(question1.tolowerCase());
