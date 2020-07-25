@@ -1,56 +1,54 @@
 'use strict';
 
 //Get name
-var getName = prompt('What is your name ?');
-alert('Hello' + getName + ', Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !');
+var userName = prompt('What is your name ?').toLowerCase();
+alert(userName + ' Hello, Hi, Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !');
 
 //console.log(getName);
 
 //Question 1
-var question1 = prompt('I was born in Oklahoma, but was I born in 1978 ? ');
- if (question1.toLowerCase !== 'no' && question1.toLowerCase !== 'yes');
-  alert('Wrong answer dude');
-  alert('Nice !!!!');
-  //console.log(question1.tolowerCase());
-
-  //Question 2
-  var question2 = prompt('Was I a door-to-door Salesman ?');
-  while (question2.toLowerCase() !== 'no' && question2.toLowerCase() !== 'yes') question2 = prompt('Please answer with either a yes or no was I a  door-to-door salesman ?');
+var question1 = prompt('I was born in Oklahoma, That part is true, but was I born in 1978 ? yes or no').toLowerCase();
+if (question1 === 'yes') {
+  alert('NICE !!!');
+}  else if (question1 === 'no') {
+  alert('Wrong answer dude !!');
 }
-if (question2 === 'no') {
+//console.log('question1' + user guess year born);
+
+//Question 2
+var question2 = prompt('Was I a door-to-door Salesman ? yes or no ?').toLowerCase();
+if (question2 == 'yes') {
   alert('You got it dude ! I was a door-to-door vaccume cleaner salesman');
-} else { //console.log(question2.toLowerCase());
+}  else if (question2 === 'no') {
   alert('Sorry Charley, I was.');
+}
+//console.log('question2' + was I a salesman);
 
-  //Question 3
-  var question3 = prompt('Did I spend almost 2 years living on a  mountain as a child ?');
-  while (question3.toLowerCase() !== 'no' && question3.toLowerCase() !== 'yes') {
-    question3 = prompt('Please answer with a yes or a no, did I live on top of a mountain for 2 years ?');
-  }
-  if (question3 === 'no') {
-    alert('Absoultely !! So techniclly im a mountain man!');
-  } else { //console.log(question3.toLowerCase());
-    alert('Wrong answer Pal. I did.');
+//Question 3
+var question3 = prompt('Did I spend almost 2 years living on a mountain as a child ? yes or no ?').toLowerCase();
+if (question3 === 'yes') {
+  alert('Absoultely !! So techniclly im a mountain man!');
+} else if (question3 === 'no') {
+  alert('Wrong answer Pal. I did.');
+}
+//console.log('question3' + did I live on a mountain);
 
-    //Question 4
-    var question4 = prompt('Have I ever built a bomb ?');
-    while (question4.toLowerCase() !== 'no' && question4.toLowerCase() !== 'yes') {
-      question4 = prompt('Please still answer with a yes or no, have I ever built a bomb ?');
-    }
-    if (question4 === 'no') {
-      alert('Right on homie, you answered right !! I built bombs as an    Aviation Ordnanceman for the US Navy.');
-    } else {
-      //console.log(question4.toLowerCase()); 
-      alert('Wrong !! Come on its not a stretch to be a bomb builder.');
 
-      //Question 5 
-      var question5 = prompt('Have I ever been fired from a job ?');
-      while (question5.toLowerCase() !== 'no' && question5.toLowerCas() !== 'yes') {
-        question5 = prompt('Please answer with a yes or no, Have I ever been fired from a job ?');
-      }
-      if (question5 === 'no') {
-        alert('Yup your right ! Ive been fired form every job Ive ever worked at except for the Navy. lol oops.');
-      } else {
-        //console.log('question5.toLowerCase');
-        alert('you loose, wrong answer. Ive lost every job Ive ever had with the exception of the military.');
-      }
+//Question 4
+var question4 = prompt('Have I ever built a bomb ? yes or no ?').toLowerCase();
+if (question4 === 'yes') {
+  alert('Right on homie, you answered that right !! I built bombs as an Aviation Ordnanceman for the US Navy.');
+}  else if (question4 === 'no') {
+  alert('Wrong !! Come on its not such a huge stretch for me to be a bomb builder.');
+}
+//console.log('question4' + was I a bomb builder); 
+
+//Question 5 
+var question5 = prompt('Have I ever been fired from a job ? Please answer yes or no ?').toLowerCase();
+if (question5 === 'yes') {
+  alert('Yup your right ! Ive been fired form every job Ive ever worked at except for the Navy. lol oops.');
+} else if (question5 === 'no') {
+  alert('you loose, wrong answer. Ive lost every job Ive ever had with the exception of the military.');
+}
+      //console.log('question5.toLowerCase');
+
