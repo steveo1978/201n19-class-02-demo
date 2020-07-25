@@ -1,21 +1,18 @@
-}'use strict';
+'use strict';
+
 //Get name
 var getName = prompt('What is your name ?');
-var message = 'Hello' + getName + ', Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !';
+alert('Hello' + getName + ', Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !');
 
 //console.log(getName);
 
-alert(message);
-
 //Question 1
 var question1 = prompt('I was born in Oklahoma, but was I born in 1978 ? ');
-while (question1.toLowerCase() !== 'no' && question1.toLowerCase() !== 'yes') {
-  question1 = prompt('Please answer with either a yes or a no. was I born in 1978 ?');
-}
-if (question1 === 'no') {
-  alert('NICE !!!');
-} else { //console.log(question1.tolowerCase());
+var question1 = 
+if (question1.toLowerCase !== 'no' && toLowerCase && question1.toLowerCase !== 'yes');
   alert('Wrong answer dude');
+  alert('Nice !!!!');
+  //console.log(question1.tolowerCase());
 
   //Question 2
   var question2 = prompt('Was I a door-to-door Salesman ?');
@@ -58,6 +55,3 @@ if (question2 === 'no') {
         //console.log('question5.toLowerCase');
         alert('you loose, wrong answer. Ive lost every job Ive ever had with the exception of the military.');
       }
-    }
-  }
-}
