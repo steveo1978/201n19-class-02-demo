@@ -12,6 +12,13 @@ head {
   text-align: justify;
 }
 
+header>img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
 body>img {
   width: 250px;
   border-color: darkblue;
