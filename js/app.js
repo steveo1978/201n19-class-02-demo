@@ -1,7 +1,7 @@
 'use strict';
 
 //Get name
-var score = 0
+var score = 0;
 var userName = prompt('What is your name ?').toLowerCase();
 alert(userName + ' Hello, Hi, Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !');
 
@@ -59,8 +59,8 @@ if (question5 === 'yes') {
 //console.log('question5.toLowerCase');
 
 //Question 6
-var question6 = 0;
-var attempts = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is ?'));
+var attempts = 0;
+var question6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is ?'));
 while (attempts < 3) {
   attempts++;
   if (question6 < 8) {
@@ -82,22 +82,24 @@ while (attempts < 3) {
 
   //Question 7
   var attempts7 = 0;
-  var question7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.');
+  var answer7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.');
   var favoriteAnimal = ['cat'];
-  while (question7 < 5) {
-    attempts++;
+  while (attempts7 < 5) {
+    attempts7++;
     for (var i = 0; i < favoriteAnimal.length; i++) {
-      //console.log('Good job');
-      alert('Good job');
-      attempts7 = 10;
-      score++;
+      if (answer7 === favoriteAnimal[i]) {
+        //console.log('Good job');
+        alert('Good job');
+        attempts7 = 10;
+        score++;
+      }
     }
-  }
-  if (attempts7 !== 10) {
-    //console.log('Try again');
-    answer7 = Prompt('Try again');
+    if (attempts7 !== 10) {
+      //console.log('Try again');
+      answer7 = prompt('Try again');
+    }
   }
   if (attempts7 === 5) {
     alert('Your out of chances, the correct answer is cat.');
-    alert('Thanks for playing my crazy game ${userName}, I invite you to check out my page for more crazy fun and to learn more about me.');
-  }
+    alert(`Thanks for playing my crazy game ${userName}, I invite you to check out my page for more crazy fun and to learn more about me. here is your score ${score} `);
+}
