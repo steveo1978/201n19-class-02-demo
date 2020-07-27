@@ -3,38 +3,48 @@ body {
 }
 
 head {
-  margin: 0px;
-  width: auto;
-  background-color: cadetblue;
-  height: 350px;
-  color: aliceblue;
+  margin: 10px auto;
+  width: 500px;
+  background-color: rgb(9, 98, 231);
+  height: 200px;
+  color: rgb(12, 122, 218);
   font-size: medium;
-  text-align: justify;
 }
 
 header>img {
   width: 100px;
+  height: 100px;
   margin-top: 10px;
   margin-left: 10px;
-  float: left;
+  float: right;
+}
+
+body {
+  width: 10px;
+  border-color: rgb(3, 53, 190);
+  padding: 50px;
+  text-emphasis: justify; 
+}
+
+
+p {
+  margin: 10px;
+  background-color: rgb(3, 42, 214);
+  color: black;
+  width: 100px;
+  text-emphasis: justify;
 }
 
 body>img {
-  width: 250px;
-  border-color: darkblue;
-  padding: 5px;
-}
-
-p {
-  margin: 0px auto;
-  background-color: aqua;
-  color: black;
-  width: 960px;
+  width: 50px;
+  height: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 footer {
-  margin: 0px;
-  background-color: cadetblue;
-  text-align: right;
-  width: 960px;
+  margin: 10px;
+  background-color: rgb(7, 112, 116);
+  text-align: center;
+  width: 980px;
 }
