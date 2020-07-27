@@ -81,7 +81,7 @@ while (attempts < 3) {
   }
 
   //Question 7
-  var answer7 = 0;
+  var attempts7 = 0;
   var question7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.');
   var favoriteAnimal = ['cat'];
   while (question7 < 5) {
