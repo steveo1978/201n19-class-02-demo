@@ -11,17 +11,21 @@ head {
   font-size: medium;
 }
 
-header>img {
-  width: 100px;
-  height: 100px;
+#nova {
+  width: 400px;
+  height: auto;
   margin-top: 10px;
   margin-left: 10px;
-  float: right;
+  float: left;
+  border: 10px solid rgb(50, 224, 7);
+  padding: 10px;
+
 }
 
 body {
-  width: 10px;
-  border-color: rgb(3, 53, 190);
+  width: auto;
+  height: 100%;
+  border-color: rgb(25, 190, 3);
   padding: 50px;
   text-emphasis: justify; 
 }
@@ -31,15 +35,18 @@ p {
   margin: 10px;
   background-color: rgb(3, 42, 214);
   color: black;
-  width: 100px;
+  width: auto;
   text-emphasis: justify;
 }
 
-body>img {
-  width: 50px;
-  height: 10px;
+body img {
+  width: 400px;
+  height: auto;
   margin-top: 10px;
   margin-right: 10px;
+  float: right;
+  border: 5px;
+  padding: 20px;
 }
 
 footer {

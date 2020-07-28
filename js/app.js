@@ -5,7 +5,7 @@ var score = 0;
 var userName = prompt('What is your name ?').toLowerCase();
 alert(userName + ' Hello, Hi, Holla ! Welcome to the freakshow that is my mind ! My name is Steve R. Marical and today were goin crazy together learning all about me. Were gonna start with a series of questions. Please just answer yes or no. Ready ? Then lets get crazy !');
 
-//console.log(getName);
+//console.log(userName);
 
 //Question 1
 var question1 = prompt('I was born in Oklahoma, That part is true, but was I born in 1978 ? yes or no').toLowerCase();
@@ -72,34 +72,36 @@ while (attempts < 3) {
   } else if (question6 === 8) {
     //console.log('Hey, hey, hey, you got it right ! Good job !!');
     alert('Hey, hey, hey, you got it right ! Good Job !!');
-    attempts = 10; {
+    attempts = 10;
+    score++;
+  }
+}
+if (attempts === 3) {
+  alert('Out of guesses and all of them wrong. The correct answer is 8');
+}
+
+
+//Question 7
+var attempts7 = 0;
+var answer7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.').toLowerCase();
+var favoriteAnimal = ['cats','dog','tiger','alligator'];
+while (attempts7 < 5) {
+  attempts7++;
+  for (var i = 0; i < favoriteAnimal.length; i++) {
+    if (answer7 === favoriteAnimal[i]) {
+      //console.log('Good job');
+      alert('Good job');
+      attempts7 = 10;
       score++;
     }
   }
-  if (attempts === 3) {
-    alert('Out of guesses and all of them wrong. The correct answer is 8');
+  if (attempts7 !== 10) {
+    //console.log('Try again');
+    answer7 = prompt('Try again');
   }
-
-  //Question 7
-  var attempts7 = 0;
-  var answer7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.');
-  var favoriteAnimal = ['cat'];
-  while (attempts7 < 5) {
-    attempts7++;
-    for (var i = 0; i < favoriteAnimal.length; i++) {
-      if (answer7 === favoriteAnimal[i]) {
-        //console.log('Good job');
-        alert('Good job');
-        attempts7 = 10;
-        score++;
-      }
-    }
-    if (attempts7 !== 10) {
-      //console.log('Try again');
-      answer7 = prompt('Try again');
-    }
-  }
-  if (attempts7 === 5) {
-    alert('Your out of chances, the correct answer is cat.');
-    alert(`Thanks for playing my crazy game ${userName}, I invite you to check out my page for more crazy fun and to learn more about me. here is your score ${score} `);
 }
+if (attempts7 === 5) {
+  alert('Your out of chances, the correct answer is cat.');
+}
+alert(`Thanks for playing my crazy game ${userName}, I invite you to check out my page for more crazy fun and to learn more about me. here is your score ${score} `);
+
