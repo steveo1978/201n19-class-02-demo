@@ -49,6 +49,16 @@ body img {
   padding: 20px;
 }
 
+#halloween pic {
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: right;
+  border: 5px;
+  padding: 20px;
+}
+
 footer {
   margin: 10px;
   background-color: rgb(7, 112, 116);
