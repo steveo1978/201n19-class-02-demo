@@ -60,7 +60,7 @@ if (question5 === 'yes' || question5 === 'y') {
 
 //Question 6
 var attempts = 0;
-var question6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is ?'));
+var question6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is ?').toLowerCase());
 while (attempts < 3) {
   attempts++;
   if (question6 < 8) {
