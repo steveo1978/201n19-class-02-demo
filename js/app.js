@@ -9,30 +9,30 @@ alert(userName + ' Hello, Hi, Holla ! Welcome to the freakshow that is my mind !
 
 //Question 1
 var question1 = prompt('I was born in Oklahoma, That part is true, but was I born in 1978 ? yes or no').toLowerCase();
-if (question1 === 'yes') {
+if (question1 === 'yes' || question1 === 'y') {
   alert('NICE !!!');
   score++;
-} else if (question1 === 'no') {
+} else if (question1 === 'no' || question1 === 'n') {
   alert('Wrong answer dude !!');
 }
 //console.log('question1' + user guess year born);
 
 //Question 2
 var question2 = prompt('Was I a door-to-door Salesman ? yes or no ?').toLowerCase();
-if (question2 === 'yes') {
+if (question2 === 'yes' || question2 === 'y') {
   alert('You got it dude ! I was a door-to-door vaccume cleaner salesman');
   score++;
-} else if (question2 === 'no') {
+} else if (question2 === 'no' || question2 === 'n') {
   alert('Sorry Charley, I was.');
 }
 //console.log('question2' + was I a salesman);
 
 //Question 3
 var question3 = prompt('Did I spend almost 2 years living on a mountain as a child ? yes or no ?').toLowerCase();
-if (question3 === 'yes') {
+if (question3 === 'yes' || question3 === 'y') {
   alert('Absoultely !! So techniclly im a mountain man!');
   score++;
-} else if (question3 === 'no') {
+} else if (question3 === 'no' || question3 === 'n') {
   alert('Wrong answer Pal. I did.');
 }
 //console.log('question3' + did I live on a mountain);
@@ -40,20 +40,20 @@ if (question3 === 'yes') {
 
 //Question 4
 var question4 = prompt('Have I ever built a bomb ? yes or no ?').toLowerCase();
-if (question4 === 'yes') {
+if (question4 === 'yes' || question4 === 'y') {
   alert('Right on homie, you answered that right !! I built bombs as an Aviation Ordnanceman for the US Navy.');
   score++;
-} else if (question4 === 'no') {
+} else if (question4 === 'no' || question4 === 'n') {
   alert('Wrong !! Come on its not such a huge stretch for me to be a bomb builder.');
 }
 //console.log('question4' + was I a bomb builder);
 
 //Question 5
 var question5 = prompt('Have I ever been fired from a job ? Please answer yes or no ?').toLowerCase();
-if (question5 === 'yes') {
+if (question5 === 'yes' || question5 === 'y') {
   alert('Yup your right ! Ive been fired form every job Ive ever worked at except for the Navy. lol oops.');
   score++;
-} else if (question5 === 'no') {
+} else if (question5 === 'no' || question5 === 'n') {
   alert('you loose, wrong answer. Ive lost every job Ive ever had with the exception of the military.');
 }
 //console.log('question5.toLowerCase');
