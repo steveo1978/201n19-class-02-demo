@@ -5,7 +5,7 @@ body {
 head {
   margin: 10px auto;
   width: 500px;
-  background-color: rgb(9, 98, 231);
+  background-color: rgba(235, 76, 14, 0.185);
   height: 200px;
   color: rgb(12, 122, 218);
   font-size: medium;
@@ -33,7 +33,7 @@ body {
 
 p {
   margin: 10px;
-  background-color: rgb(3, 42, 214);
+  background-color: rgb(90, 88, 100);
   color: black;
   width: auto;
   text-emphasis: justify;
@@ -50,11 +50,11 @@ body img {
 }
 
 #halloween pic {
-  width: 400px;
+  width: 300px;
   height: auto;
   margin-top: 10px;
   margin-left: 10px;
-  float: right;
+  float: left;
   border: 5px;
   padding: 20px;
 }
