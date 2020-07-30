@@ -9,12 +9,28 @@ alert(userName + ' Hello, Hi, Holla ! Welcome to the freakshow that is my mind !
 
 //Question 1
 var question1 = prompt('I was born in Oklahoma, That part is true, but was I born in 1978 ? yes or no').toLowerCase();
-if (question1 === 'yes' || question1 === 'y') {
-  alert('NICE !!!');
-  score++;
-} else if (question1 === 'no' || question1 === 'n') {
-  alert('Wrong answer dude !!');
+
+function questionOne(oklahoma){
+  if (oklahoma === 'yes' || oklahoma === 'y') {
+    var nice = alert('NICE !!!');
+    score++;
+    return nice;
+  } else if (oklahoma === 'no' || oklahoma === 'n') {
+    var noAlert = alert('Wrong answer dude !!');
+    return noAlert;
+  }
+  //console.log(question1);
 }
+
+questionOne(question1);
+console.log(`Your score is: ${score}`);
+
+// if (question1 === 'yes' || question1 === 'y') {
+//   alert('NICE !!!');
+//   score++;
+// } else if (question1 === 'no' || question1 === 'n') {
+//   alert('Wrong answer dude !!');
+// }
 //console.log('question1' + user guess year born);
 
 //Question 2
@@ -60,26 +76,28 @@ if (question5 === 'yes' || question5 === 'y') {
 
 //Question 6
 var attempts = 0;
+var allowedAttempts = 4;
+var answerSix = 8;
+
 var question6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is ?').toLowerCase());
-while (attempts < 3) {
-  attempts++;
-  if (question6 < 8) {
+while (attempts < allowedAttempts) {
+  if (question6 < answerSix) {
     //console.log('Good guess, but WRONG ! Way too low. Try again)
     question6 = Number(prompt('Good guess, but WRONG ! Way too low. Try again.'));
-  } else if (question6 > 8) {
+  } else if (question6 > answerSix) {
     //console.log('Ooo so close, but still wrong. Too high. Try again.');
     question6 = Number(prompt('Ooo so close, but still wrong. Too high. Try again.'));
-  } else if (question6 === 8) {
+  } else if (question6 === answerSix) {
     //console.log('Hey, hey, hey, you got it right ! Good job !!');
     alert('Hey, hey, hey, you got it right ! Good Job !!');
     attempts = 10;
     score++;
   }
+  attempts++;
 }
-if (attempts === 3) {
+if (attempts === allowedAttempts) {
   alert('Out of guesses and all of them wrong. The correct answer is 8');
 }
-
 
 //Question 7
 var attempts7 = 0;
