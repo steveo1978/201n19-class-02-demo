@@ -3,16 +3,16 @@ body {
 }
 
 head {
-  margin: 10px auto;
-  width: 500px;
-  background-color: rgba(235, 76, 14, 0.185);
-  height: 200px;
+  margin: 10px;
+  width: 10px;
+  background-color: hsla(48, 91%, 58%, 0.543);
+  height: 20px;
   color: rgb(12, 122, 218);
   font-size: medium;
 }
 
 #nova {
-  width: 400px;
+  width: 40px;
   height: auto;
   margin-top: 10px;
   margin-left: 10px;
@@ -23,45 +23,37 @@ head {
 }
 
 body {
-  width: auto;
-  height: 100%;
+  width: 20px;
+  height: 20px;
   border-color: rgb(25, 190, 3);
   padding: 50px;
-  text-emphasis: justify; 
+  text-emphasis: justify;
 }
 
 
 p {
   margin: 10px;
-  background-color: rgb(90, 88, 100);
+  background-color: rgba(5, 177, 82, 0.358);
   color: black;
-  width: auto;
+  width: 20px;
   text-emphasis: justify;
+  font-size: small;
+  font-style: normal;
 }
-
-body img {
-  width: 400px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 10px;
-  float: right;
-  border: 5px;
-  padding: 20px;
-}
-
-#halloween pic {
-  width: 300px;
-  height: auto;
+ 
+#halloween {
+  width: 50px;
+  height: 50px;
   margin-top: 10px;
   margin-left: 10px;
-  float: left;
-  border: 5px;
-  padding: 20px;
+  float: right;
+  border-color: rgb(50, 224, 7);
+  padding: 10px;
 }
 
 footer {
   margin: 10px;
-  background-color: rgb(7, 112, 116);
+  background-color: rgba(6, 71, 182, 0.447);
   text-align: center;
-  width: 980px;
+  width: 1000px;
 }
