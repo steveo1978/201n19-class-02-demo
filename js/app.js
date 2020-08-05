@@ -99,7 +99,7 @@ function questionSix(qSix) {
 questionSix(question6);
 
 var attempts7 = 0;
-var answer7 = prompt('Ilove animals, name my favorite animal, I\'ll give you 6 trys.').toLowerCase();
+var answer7 = prompt('I love animals, name my favorite animal, I\'ll give you 6 trys.').toLowerCase();
 var favoriteAnimal = ['cats', 'dog', 'tiger', 'alligator'];
 
 function questionSeven(qSeven) {
